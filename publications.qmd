@@ -1,12 +1,13 @@
 ---
 title: "Publications"
+nocite: |
+  @*
+bibliography: assets/publication-9-30-25.bib
+csl: https://www.zotero.org/styles/apa
+link-citations: true
 ---
 
-_Selected examples (students underlined). Add your full list or link to CV/Scholar._
+> **Full list generated from Google Scholar**.  
+> Also see my Scholar profile: <https://scholar.google.com/citations?user=CqwcaX8AAAAJ>
 
-- Jiao J. 2025. The Waxing and Waning of Fear… *Mathematics*.
-- Jiao J, Cortez MH. 2025. Priority effects… *Ecological Modelling*.
-- Jiao J, Fefferman N. 2021. Public reaction… *PLOS Computational Biology*.
-- Jiao J, Cortez MH. 2022. Generalist–specialist… *The American Naturalist*.
-
-**Google Scholar:** _add link_ • **CV:** _add link_
+<!-- Quarto will print the bibliography here automatically -->
