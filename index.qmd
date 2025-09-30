@@ -5,14 +5,20 @@ title: "Home"
 <div class="hero"></div>
 
 ## Welcome
-I study how **environmental conditions** and **species interactions** shape **infection dynamics**, and I teach **General Biology**, **Biostatistics**, and **Evolution, Disease, and Medicine** (undergrad & grad). This site shares **safe, high-level teasers** of ongoing work and practical teaching resources.
+My lab applies quantitative approaches—including **Mathematical modeling**, **Statistical analysis**, **Artificial intelligence**, and **Machine learning** — to investigate species interactions across space and time.
+
+**Current research focuses on:**
+- Exploring non‑linear dynamics in coinfection;
+- Studying vector‑borne infectious diseases in the context of seasonal migration;
+- Modeling seasonal growth of vectors;
+- Understanding nationwide disease‑control strategies under social and psychological influences.
 
 ```{=html}
 <div class="card-grid">
   <div class="card">
     <div class="badge-soft">Research</div>
-    <h3>Damselfly coinfection (teasers)</h3>
-    <p class="small-muted">How coinfection, environment, and species interactions create nonlinear outcomes.</p>
+    <h3>Quantitative disease ecology</h3>
+    <p class="small-muted">Nonlinear coinfection, seasonal migration & vector growth, and social–psychological drivers of control.</p>
     <p><a href="projects.qmd">Explore projects →</a></p>
   </div>
   <div class="card">
@@ -28,7 +34,3 @@ I study how **environmental conditions** and **species interactions** shape **in
     <p><a href="publications.qmd">Publications →</a></p>
   </div>
 </div>
-```
-
-## News
-See <a href="news.qmd">News</a> for short updates and talks.
