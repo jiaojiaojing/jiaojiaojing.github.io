@@ -6,7 +6,7 @@ title: "Home"
 
 ## Welcome
 
-Our lab applies **quantitative approaches**—including **mathematical modeling**, **statistical analysis**, **artificial intelligence**, and **machine learning**—to investigate species interactions across space and time.
+My lab applies **quantitative approaches**—including **mathematical modeling**, **statistical analysis**, **artificial intelligence**, and **machine learning**—to investigate species interactions across space and time.
 
 **Current research focuses on:**
 - Exploring non-linear dynamics in coinfection;
