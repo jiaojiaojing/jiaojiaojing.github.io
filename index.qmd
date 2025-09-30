@@ -1,0 +1,35 @@
+---
+title: "Home"
+---
+
+<div class="hero">
+  <h1>Jing Jiao Lab</h1>
+  <p>Ecology • Quantitative Biology • Biology Education</p>
+</div>
+
+## Welcome
+I study how **environmental conditions** and **species interactions** shape **infection dynamics**, and I teach **General Biology**, **Biostatistics**, and **Evolution, Disease, and Medicine** (undergrad & grad). This site shares **safe, high-level teasers** of ongoing work and practical teaching resources.
+
+<div class="card-grid">
+  <div class="card">
+    <div class="badge-soft">Research</div>
+    <h3>Damselfly coinfection (teasers)</h3>
+    <p class="small-muted">How coinfection, environment, and species interactions create nonlinear outcomes.</p>
+    <p><a href="projects.qmd">Explore projects →</a></p>
+  </div>
+  <div class="card">
+    <div class="badge-soft">Teaching</div>
+    <h3>First-year biology success</h3>
+    <p class="small-muted">Simple, fair course practices that build confidence and data literacy.</p>
+    <p><a href="teaching.qmd">Teaching →</a></p>
+  </div>
+  <div class="card">
+    <div class="badge-soft">Publications</div>
+    <h3>Selected papers</h3>
+    <p class="small-muted">Recent work in ecology and quantitative biology.</p>
+    <p><a href="publications.qmd">Publications →</a></p>
+  </div>
+</div>
+
+## News
+See <a href="news.qmd">News</a> for short updates and talks.

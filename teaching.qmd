@@ -1,0 +1,14 @@
+---
+title: "Teaching"
+---
+
+I focus on clear goals, brief in-class problem solving, and transparent criteria. In first-year General Biology, students work with **real datasets** in short, guided exercises (with or without simple R code).
+
+**Courses**
+- General Biology (first-year)
+- Biostatistics (graduate)
+- Evolution, Disease, & Medicine
+
+**Materials**
+- Syllabus (sample) — add link  
+- Short data module (R + CSV) — add link

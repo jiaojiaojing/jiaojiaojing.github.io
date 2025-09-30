@@ -1,0 +1,10 @@
+---
+title: "News"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Short updates, talks, and highlights.

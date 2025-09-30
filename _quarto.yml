@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jing Jiao"
+  description: "Ecology • Quantitative Biology • Biology Education"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: People
+        href: people.qmd
+      - text: Research
+        menu:
+          - text: Projects
+            href: projects.qmd
+          - text: Publications
+            href: publications.qmd
+          - text: Software
+            href: software.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: News
+        href: news.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    left: "© 2025 Jing Jiao"
+    right: "ORCID: 0000-0003-2666-6452"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css

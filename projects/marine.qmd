@@ -1,0 +1,9 @@
+---
+title: "Aquatic Disease Modeling (Teasers)"
+---
+
+Short overview of modeling goals and environmental drivers. Full package released post-acceptance.
+
+![Teaser](../assets/banner.jpg)
+
+**GitHub (teasers):** https://github.com/jiaojiaojing/marine-disease-teasers

@@ -1,0 +1,9 @@
+---
+title: "Software"
+---
+
+Link selected repos and short descriptions.
+
+- **damselfly-coinfection-brief** — synthetic demo & teaser figures.  
+- **marine-disease-teasers** — toy simulations for aquatic disease drivers.  
+- **behavior-control-teasers** — safe diagrams and demos for behavior-integrated models.

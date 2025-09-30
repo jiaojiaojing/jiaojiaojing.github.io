@@ -1,0 +1,9 @@
+---
+title: "Behavior & Control (Teasers)"
+---
+
+Brief note on integrating human decision-making into disease models (safe demo only).
+
+![Teaser](../assets/banner.jpg)
+
+**GitHub (teasers):** https://github.com/jiaojiaojing/behavior-control-teasers

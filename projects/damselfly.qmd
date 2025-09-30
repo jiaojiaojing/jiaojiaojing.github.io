@@ -1,0 +1,11 @@
+---
+title: "Damselfly Coinfection (Teasers)"
+---
+
+**Question.** How do multiple infections interact with environment and species to shape outcomes?  
+**What’s here.** Safe summaries, a synthetic toy example, and a teaser figure (PNG).  
+**What’s withheld (for now).** Full derivations, raw data, and exact reproduction code.
+
+![Teaser](../assets/banner.jpg)
+
+**GitHub (teasers):** https://github.com/jiaojiaojing/damselfly-coinfection-brief

@@ -1,0 +1,18 @@
+---
+title: "Projects"
+---
+
+> **Sharing policy:** This page shows high-level ideas, **synthetic demos**, and **teaser figures**. Full code/data will be released after journal acceptance.
+
+### Damselfly coinfection (teasers)
+- Focus: **nonlinear coinfection** under environmental gradients and species interactions.  
+- Now: preparing manuscript; safe teaser figure and synthetic demo linked below.  
+- Link: <a href="projects/damselfly.qmd">Project page →</a>
+
+### Aquatic disease modeling (teasers)
+- Focus: time-varying environmental drivers in aquatic disease systems.  
+- Link: <a href="projects/marine.qmd">Project page →</a>
+
+### Behavior & control (teasers)
+- Focus: human behavior in vector-borne disease interventions.  
+- Link: <a href="projects/behavior.qmd">Project page →</a>
