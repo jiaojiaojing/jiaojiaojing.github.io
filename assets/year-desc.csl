@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US">
+  <info>
+    <title>Author–Year (sorted by Year Descending)</title>
+    <id>http://www.zotero.org/styles/author-year-year-descending</id>
+    <link href="http://www.zotero.org/styles/apa" rel="template"/>
+    <updated>2025-09-30T00:00:00+00:00</updated>
+  </info>
+
+  <macro name="author">
+    <names variable="author">
+      <name and="symbol" initialize-with=". " name-as-sort-order="all"/>
+      <substitute>
+        <names variable="editor"/>
+        <text variable="title"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+
+  <macro name="title">
+    <text variable="title" text-case="sentence"/>
+  </macro>
+
+  <macro name="container">
+    <group delimiter=", ">
+      <text variable="container-title" font-style="italic"/>
+      <group delimiter=" ">
+        <text variable="volume" font-weight="bold"/>
+        <text variable="issue" prefix="(" suffix=")"/>
+      </group>
+      <text variable="page"/>
+    </group>
+  </macro>
+
+  <macro name="doi-url">
+    <group delimiter=". ">
+      <text variable="DOI" prefix="https://doi.org/"/>
+      <text variable="URL"/>
+    </group>
+  </macro>
+
+  <citation>
+    <layout delimiter="; ">
+      <group delimiter=", ">
+        <text macro="author"/>
+        <text macro="year"/>
+      </group>
+    </layout>
+  </citation>
+
+  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" entry-spacing="0" line-spacing="2">
+    <!-- KEY PART: sort newest → oldest by year -->
+    <sort>
+      <key variable="issued" sort="descending"/>
+      <key macro="author"/>
+      <key variable="title"/>
+    </sort>
+    <layout>
+      <group delimiter=". ">
+        <group delimiter=" ">
+          <text macro="author"/>
+          <text macro="year" prefix="(" suffix=")."/>
+        </group>
+        <text macro="title"/>
+        <text macro="container"/>
+        <text macro="doi-url"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>
