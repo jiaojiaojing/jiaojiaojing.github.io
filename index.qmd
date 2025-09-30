@@ -2,8 +2,6 @@
 title: "Home"
 ---
 
-<div class="hero"></div>
-
 ## Welcome
 
 My lab applies **quantitative approaches**—including **mathematical modeling**, **statistical analysis**, **artificial intelligence**, and **machine learning**—to investigate species interactions across space and time.
@@ -14,27 +12,28 @@ My lab applies **quantitative approaches**—including **mathematical modeling**
 - Modeling seasonal growth of vectors;
 - Understanding nationwide disease-control strategies under social and psychological influences.
 
-```{=html}
-<div class="card-grid">
-  <div class="card">
-    <div class="badge-soft">Research</div>
-    <h3>Quantitative disease ecology</h3>
-    <p class="small-muted">Nonlinear coinfection, seasonal migration & vector growth, and sociopsychological drivers of control strategies.</p>
-    <p><a href="projects.qmd">Explore projects →</a></p>
-  </div>
-  <div class="card">
-    <div class="badge-soft">Teaching</div>
-    <h3>First-year biology success</h3>
-    <p class="small-muted">Simple, fair course practices that build confidence and data literacy.</p>
-    <p><a href="teaching.qmd">Teaching →</a></p>
-  </div>
-  <div class="card">
-    <div class="badge-soft">Publications</div>
-    <h3>Selected papers</h3>
-    <p class="small-muted">Recent work in ecology and quantitative biology.</p>
-    <p><a href="publications.qmd">Publications →</a></p>
-  </div>
-</div>
+::: {.grid}
+::: {.g-col-4}
+**Research**  
+**Quantitative disease ecology**  
+Nonlinear coinfection, seasonal migration & vector growth, and sociopsychological drivers of control strategies.  
+[Explore projects →](projects.qmd)
+:::
+
+::: {.g-col-4}
+**Teaching**  
+**First-year biology success**  
+Simple, fair course practices that build confidence and data literacy.  
+[Teaching →](teaching.qmd)
+:::
+
+::: {.g-col-4}
+**Publications**  
+**Selected papers**  
+Recent work in ecology and quantitative biology.  
+[Publications →](publications.qmd)
+:::
+:::
 
 ## News
-See <a href="news.qmd">News</a> for short updates and talks.
+See [News](news.qmd) for short updates and talks.
