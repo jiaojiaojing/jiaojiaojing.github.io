@@ -3,11 +3,6 @@ title: "Publications"
 nocite: |
   @*
 bibliography: assets/publication-9-30-25.bib
-csl: https://www.zotero.org/styles/apa
+csl: assets/year-desc.csl
 link-citations: true
 ---
-
-> **Full list generated from Google Scholar**.  
-> Also see my Scholar profile: <https://scholar.google.com/citations?user=CqwcaX8AAAAJ>
-
-<!-- Quarto will print the bibliography here automatically -->
