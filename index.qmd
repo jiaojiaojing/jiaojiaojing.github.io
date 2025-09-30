@@ -3,9 +3,6 @@ title: "Home"
 ---
 
 <div class="hero"></div>
-  <h1>Jing Jiao Lab</h1>
-  <p>Ecology • Quantitative Biology • Biology Education</p>
-</div>
 
 ## Welcome
 I study how **environmental conditions** and **species interactions** shape **infection dynamics**, and I teach **General Biology**, **Biostatistics**, and **Evolution, Disease, and Medicine** (undergrad & grad). This site shares **safe, high-level teasers** of ongoing work and practical teaching resources.
