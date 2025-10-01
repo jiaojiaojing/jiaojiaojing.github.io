@@ -38,7 +38,9 @@ website:
 
   page-footer:
     left: "© Jing Lab"
-    right: "Last change: {{< modified '%Y/%m/%d' >}}"
+    right: |
+      Last updated: {{< today format="YYYY/MM/DD" >}}
+
   search: true
 
 format:
