@@ -1,39 +1,19 @@
 ---
-title: "Home"
+title: "Jing Lab"
+page-layout: full
+format:
+  html:
+    toc: false
 ---
 
-## Welcome
-
-My lab applies **quantitative approaches**—including **mathematical modeling**, **statistical analysis**, **artificial intelligence**, and **machine learning**—to investigate species interactions across space and time.
-
-**Current research focuses on:**
-- Exploring non-linear dynamics in coinfection;
-- Studying vector-borne infectious diseases in the context of seasonal migration;
-- Modeling seasonal growth of vectors;
-- Understanding nationwide disease-control strategies under social and psychological influences.
-
-::: {.grid}
-::: {.g-col-4}
-**Research**  
-**Quantitative disease ecology**  
-Nonlinear coinfection, seasonal migration & vector growth, and sociopsychological drivers of control strategies.  
-[Explore projects →](projects.qmd)
-:::
-
-::: {.g-col-4}
-**Teaching**  
-**First-year biology success**  
-Simple, fair course practices that build confidence and data literacy.  
-[Teaching →](teaching.qmd)
-:::
-
-::: {.g-col-4}
-**Publications**  
-**Selected papers**  
-Recent work in ecology and quantitative biology.  
-[Publications →](publications.qmd)
-:::
-:::
+<div class="hero">
+  <h1>Ecological Communities in a Changing World</h1>
+  <p>Community ecology • Biodiversity • Phenology • Quantitative ecology</p>
+</div>
 
 ## News
-See [News](news.qmd) for short updates and talks.
+- 2025-09-01 — Paper accepted at *X*.  
+- 2025-08-18 — New student joined the lab.
+- 2025-06-15 — Gave a seminar at *Y*.
+
+[More news →](news.qmd)
