@@ -6,20 +6,58 @@ format:
     toc: false
 ---
 
+<!-- Hero banner -->
+<div class="hero">
+  <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
+  <p class="small-muted">Community ecology • Disease dynamics • Quantitative methods</p>
+</div>
+
+<!-- Title + profile -->
 <div class="lab-header">
   <img src="images/jing.jpg" class="lab-photo" alt="Jing Jiao">
   <div>
-    <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
-    <p class="subfields">
-      🧬 Computational Biology • 🌿 Community Ecology • 🧫 Host–Pathogen Interactions • 📊 Statistical Analyses
-    </p>
+    <h2 class="mb-1">Jing Jiao, Ph.D.</h2>
+    <p class="small-muted">Assistant Professor, TCU Biology</p>
+    <p class="small-muted">We apply quantitative tools to understand species interactions and disease spread across space and time.</p>
   </div>
+</div>
+
+---
+
+## Research Areas
+<div class="card-grid">
+
+  <div class="card">
+    <span class="badge-soft">Core</span>
+    <h3>🧬 Computational Biology</h3>
+    <p>Scalable pipelines and simulation for ecological and epidemiological systems.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge-soft">Communities</span>
+    <h3>🌿 Community Ecology</h3>
+    <p>How interactions and environments shape biodiversity and conservation outcomes.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge-soft">Disease</span>
+    <h3>🧫 Host–Pathogen Interactions</h3>
+    <p>Mechanisms of emergence, transmission, and control across space and time.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge-soft">Methods</span>
+    <h3>📊 Mathematical & Statistical Analyses</h3>
+    <p>Theory + inference to link mechanisms with patterns in field and lab data.</p>
+  </div>
+
 </div>
 
 ---
 
 ## News
 
-- 🗓 **2025-11-02** — Brenda will present her work on the *influences of seasonal migration on bat conservation* at the **American Public Health Association (APHA) Annual Conference** in Washington, DC! 🎉
-
+- 🗓 **2025-11-02** — Brenda will present her work on the *influences of seasonal migration on bat conservation* at the **APHA Annual Conference** in Washington, DC! 🎉  
 - 🗓 **2025-04-12** — Dr. Jiao gave an invited talk about **mathematical modeling in infectious disease** at the **TCU Math Department**. 👏
+
+[See all news →](news.qmd)
