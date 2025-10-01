@@ -1,7 +1,7 @@
 ---
-title: ""                  # hide the built‑in page H1 on this page
+title: ""                      # Hides built-in Quarto H1 to avoid overlap
 page-layout: full
-page-classes: home         # add a class so we can target home-only CSS
+page-classes: home             # Adds a CSS hook for homepage styling
 format:
   html:
     toc: false
@@ -14,43 +14,48 @@ format:
 </div>
 
 <!-- Title + profile -->
-<div class="lab-header">
-  <img src="images/jing.jpg" class="lab-photo" alt="Jing Jiao">
-  <div>
-    <h2 class="mb-1">Jing Jiao, Ph.D.</h2>
-    <p class="small-muted">Assistant Professor, TCU Biology</p>
-    <p class="small-muted">We apply quantitative tools to understand species interactions and disease spread across space and time.</p>
-  </div>
-</div>
+::: columns
+::: column width="28%"
+![](images/jing.jpg){.lab-photo}
+:::
+::: column width="72%"
+
+### Jing Jiao, Ph.D.
+<span class="small-muted">Assistant Professor, TCU Biology</span>  
+<span class="small-muted">We apply quantitative tools to understand species interactions and disease spread across space and time.</span>
+
+:::
+:::
 
 ---
 
 ## Research Areas
+
 <div class="card-grid">
 
-  <div class="card">
-    <span class="badge-soft">Core</span>
-    <h3>🧬 Computational Biology</h3>
-    <p>Scalable pipelines and simulation for ecological and epidemiological systems.</p>
-  </div>
+<div class="card">
+  <span class="badge-soft">Core</span>
+  <h3>🧬 Computational Biology</h3>
+  <p>Scalable pipelines and simulation for ecological and epidemiological systems.</p>
+</div>
 
-  <div class="card">
-    <span class="badge-soft">Communities</span>
-    <h3>🌿 Community Ecology</h3>
-    <p>How interactions and environments shape biodiversity and conservation outcomes.</p>
-  </div>
+<div class="card">
+  <span class="badge-soft">Communities</span>
+  <h3>🌿 Community Ecology</h3>
+  <p>How interactions and environments shape biodiversity and conservation outcomes.</p>
+</div>
 
-  <div class="card">
-    <span class="badge-soft">Disease</span>
-    <h3>🧫 Host–Pathogen Interactions</h3>
-    <p>Mechanisms of emergence, transmission, and control across space and time.</p>
-  </div>
+<div class="card">
+  <span class="badge-soft">Disease</span>
+  <h3>🧫 Host–Pathogen Interactions</h3>
+  <p>Mechanisms of emergence, transmission, and control across space and time.</p>
+</div>
 
-  <div class="card">
-    <span class="badge-soft">Methods</span>
-    <h3>📊 Mathematical & Statistical Analyses</h3>
-    <p>Theory + inference to link mechanisms with patterns in field and lab data.</p>
-  </div>
+<div class="card">
+  <span class="badge-soft">Methods</span>
+  <h3>📊 Mathematical & Statistical Analyses</h3>
+  <p>Theory + inference to link mechanisms with patterns in field and lab data.</p>
+</div>
 
 </div>
 
