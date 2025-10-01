@@ -38,7 +38,7 @@
   flex: 0 0 70%;
 }
 
-/* === HERO BANNER FIX === */
+/* === HERO BANNER === */
 .hero {
   background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
   border-radius: 16px;
@@ -51,24 +51,64 @@
   overflow: hidden;
 }
 
+.hero-content {
+  position: relative;
+  z-index: 3;
+}
+
 .hero h1 {
   font-size: 2.8rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-weight: 700;
   color: #ffffff;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   line-height: 1.2;
 }
 
-.hero p {
-  font-size: 1.6rem;
-  opacity: 0.95;
-  color: #ffffff;
-  font-weight: 600;
+.hero-tags {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  line-height: 1.5;
+  line-height: 1.8;
   letter-spacing: 0.5px;
 }
+
+.hero-tags span {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+/* Math equation background - very subtle */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.03;
+  z-index: 1;
+  font-family: "Times New Roman", serif;
+  font-size: 4rem;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  pointer-events: none;
+}
+
+.math-bg {
+  position: absolute;
+  opacity: 0.04;
+}
+
+.math-bg:nth-child(1) { top: 10%; left: 5%; }
+.math-bg:nth-child(2) { top: 20%; right: 10%; }
+.math-bg:nth-child(3) { bottom: 30%; left: 15%; }
+.math-bg:nth-child(4) { bottom: 15%; right: 5%; }
+.math-bg:nth-child(5) { top: 40%; left: 20%; }
+.math-bg:nth-child(6) { bottom: 40%; right: 20%; }
 
 /* === PROFILE PHOTO === */
 .lab-photo {
@@ -126,11 +166,20 @@
   }
   
   .hero {
-    padding: 40px 16px;
+    padding: 60px 16px;
   }
   
   .hero h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
+  }
+  
+  .hero-tags {
+    font-size: 1.4rem;
+  }
+  
+  .hero-background {
+    font-size: 2.5rem;
+    opacity: 0.02;
   }
   
   .card-grid {
@@ -152,4 +201,10 @@
 
 :root[data-bs-theme="dark"] .hero {
   background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+}
+
+:root[data-bs-theme="dark"] .hero h1,
+:root[data-bs-theme="dark"] .hero p,
+:root[data-bs-theme="dark"] .hero-tags {
+  color: #ffffff;
 }
