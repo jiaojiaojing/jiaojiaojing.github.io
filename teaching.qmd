@@ -10,5 +10,6 @@ I focus on clear goals, brief in-class problem solving, and transparent criteria
 - Evolution, Disease, & Medicine
 
 **Materials**
-- Syllabus (sample) — add link  
-- Short data module (R + CSV) — add link
+
+- 📘 [Syllabus (sample)](files/syllabus.pdf)
+- 📦 [Short data module (R + CSV)](files/data-module.zip)
