@@ -7,6 +7,21 @@ format:
     toc: false
 ---
 
+<style>
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
 <!-- Hero banner with research plot background -->
 <!-- Hero banner -->
 ::: {.hero}
@@ -33,20 +48,6 @@ format:
 :::
 
 ---
-<style>
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-@media (max-width: 768px) {
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
 
 ## Research Areas
 
