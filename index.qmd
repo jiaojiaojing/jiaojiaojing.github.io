@@ -7,13 +7,20 @@ format:
 ---
 
 <div class="hero">
-  <h1>Ecological Communities in a Changing World</h1>
-  <p>Community ecology • Biodiversity • Phenology • Quantitative ecology</p>
+  <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
 </div>
 
-## News
-- 2025-09-01 — Paper accepted at *X*.  
-- 2025-08-18 — New student joined the lab.
-- 2025-06-15 — Gave a seminar at *Y*.
+<div class="key-areas">
+  <div class="area">🧬 Computational Biology</div>
+  <div class="area">🌿 Community Ecology</div>
+  <div class="area">🧫 Host–Pathogen Interactions</div>
+  <div class="area">📊 Mathematical & Statistical Analyses</div>
+</div>
 
-[More news →](news.qmd)
+---
+
+## News
+
+- 🗓 **2025-11-02** — Brenda will present her work on the *influences of seasonal migration on bat conservation* at the **American Public Health Association (APHA) Annual Conference** in Washington, DC! 🎉
+
+- 🗓 **2025-04-12** — Dr. Jiao gave an invited talk about **mathematical modeling in infectious disease** at the **TCU Math Department**. 👏
