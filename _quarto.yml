@@ -39,7 +39,7 @@ website:
   page-footer:
     left: "© Jing Lab"
     right: |
-      Last updated: {{< today format="YYYY/MM/DD" >}}
+      Last updated: {{< today >}}
 
   search: true
 
