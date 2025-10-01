@@ -2,9 +2,24 @@
 title: "People"
 ---
 
-## PI
-**Jing Jiao, Ph.D.** — Assistant Professor of Biology, TCU  
-Email: jing.jiao@tcu.edu
+## Principal Investigator
 
-## Students & Collaborators
-_Add names, roles, and links. Use a short paragraph or bullet list for each._
+**Jing Jiao**  
+Assistant Professor, Department of Biology, TCU  
+[jiaojiaojing.github.io](https://jiaojiaojing.github.io)
+
+---
+
+## Students
+
+### Brenda Wu  
+**Master's student** – TCU Biology
+
+### Redon Limani  
+**Undergraduate student** – TCU Biology
+
+### Kenny Lai  
+**Undergraduate student** – TCU Biology
+
+### Tessa Payne  
+**Undergraduate student** – TCU Computer Science
