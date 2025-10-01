@@ -37,9 +37,8 @@ website:
         href: https://github.com/jiaojiaojing
 
   page-footer:
-    left: "© Jing Lab"
-    right: |
-      Last updated: {{< today >}}
+  left: "© Jing Lab"
+  right: "Last updated: 2025/09/30"
 
   search: true
 
