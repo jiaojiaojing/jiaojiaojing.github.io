@@ -14,16 +14,15 @@ format:
 </div>
 
 <!-- Title + profile -->
-::: columns
-::: column width=30%
+::: {.columns}
+::: {.column width="30%"}
 ![](images/jing.jpg){.lab-photo}
 :::
-::: column width=70%
 
+::: {.column width="70%"}
 ### Jing Jiao, Ph.D.
 <span class="small-muted">Assistant Professor, TCU Biology</span>  
 <span class="small-muted">We apply quantitative tools to understand species interactions and disease spread across space and time.</span>
-
 :::
 :::
 
