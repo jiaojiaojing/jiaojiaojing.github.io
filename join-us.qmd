@@ -8,14 +8,14 @@ We are always excited to connect with passionate and curious students and resear
 
 While we do not have any funded openings at this time, we believe the best collaborations start with a conversation. We welcome inquiries from prospective undergraduate, graduate, and postdoctoral researchers who find our work inspiring.
 
-If you are interested in potential future opportunities, please feel free to reach out to Dr. Jiao at [jing.jiao@tcu.edu](mailto:jing.jiao@tcu.edu). In your email, please include:
+If you are interested in potential future opportunities, please feel free to reach out to Dr. Jiao at [jing.jiao@tcu.edu](mailto:jing.jiao@cos.name). In your email, please include:
 - Your CV or resume
 - A brief description of your research interests and how they align with our lab
 
 ---
 
-## Current Lab Members
+## Meet the Team
 
-Visit our [People page](people.qmd) to meet the current team and learn about their projects.
+To learn more about the current lab members and their projects, please visit our [People page](people.qmd).
 
 *We are committed to fostering an inclusive and supportive research environment. We encourage inquiries from individuals of all backgrounds.*
