@@ -1,9 +1,25 @@
 ---
-title: "Software"
+title: "Research Overview"
 ---
 
-Link selected repos and short descriptions.
+## Our Research Focus
 
-- **damselfly-coinfection-brief** — synthetic demo & teaser figures.  
-- **marine-disease-teasers** — toy simulations for aquatic disease drivers.  
-- **behavior-control-teasers** — safe diagrams and demos for behavior-integrated models.
+My lab applies **quantitative tools** to understand species interactions and disease spread across space and time.
+
+We are particularly interested in how theoretical modeling and data-driven analyses can be integrated to reveal mechanisms underlying biodiversity, disease dynamics, and global change.
+
+---
+
+## Research Themes
+
+1. **Theoretical Modeling of Biotic & Abiotic Mechanisms**  
+   We develop ecological and epidemiological theory to explain how **biotic** (e.g., species traits, interactions) and **abiotic** (e.g., climate, disturbance) factors shape patterns observed in the field and laboratory.
+
+2. **Statistical Analysis of Mixed Mechanisms**  
+   We build **statistical models** to dissect the complex interplay of multiple mechanisms within empirical datasets.
+
+3. **Theory–Data Integration**  
+   We combine theoretical insights and statistical inference to strengthen our understanding of ecological and epidemiological systems.
+
+4. **Advanced Tools for Big Data**  
+   We explore machine learning and **AI-based tools** for analyzing large-scale ecological and health data.
