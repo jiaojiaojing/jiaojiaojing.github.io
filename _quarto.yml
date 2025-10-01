@@ -3,8 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Jing Jiao"
-  description: "Ecology • Quantitative Biology • Biology Education"
+  title: "Jing Lab"
   navbar:
     left:
       - text: Home
@@ -13,23 +12,40 @@ website:
         href: people.qmd
       - text: Research
         menu:
-          - text: Projects
-            href: projects.qmd
-          - text: Publications
-            href: publications.qmd
-          - text: Software
-            href: software.qmd
+          - href: research/index.qmd
+          - text: Long-Term Change
+            href: research/long-term.qmd
+          - text: Plant Phenology
+            href: research/phenology.qmd
+          - text: Species Invasions
+            href: research/invasions.qmd
+      - text: Publications
+        href: publications.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: News
-        href: news.qmd
-      - text: Contact
-        href: contact.qmd
+      - text: Join us
+        href: join-us.qmd
+      - text: Values
+        href: values.qmd
+      - text: Blog
+        href: blog/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/jiaojiaojing
+      - text: CV
+        href: files/CV.pdf
   page-footer:
-    left: "© 2025 Jing Jiao"
-    right: "ORCID: 0000-0003-2666-6452"
+    left: |
+      © the Jing Lab 2020–{{< meta year >}}
+    right: |
+      Last change: {{< meta today >}}
 format:
   html:
-    theme: cosmo
-    toc: true
-    css: styles.css
+    theme:
+      - flatly
+      - custom.scss
+    toc: false
+    smooth-scroll: true
+    anchor-sections: true
+execute:
+  freeze: auto
