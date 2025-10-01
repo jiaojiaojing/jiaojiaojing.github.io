@@ -8,15 +8,16 @@ format:
 ---
 
 <!-- Hero banner with research plot background -->
-<div class="hero">
-  <div class="hero-content">
-    <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
-    <div class="hero-tags">
-      <span>Community Ecology</span> • <span>Disease Epidemiology</span><br>
-      <span>Quantitative Methods</span> • <span>Biological Conservation</span>
-    </div>
-  </div>
-</div>
+<!-- Hero banner -->
+::: {.hero}
+::: {.hero-content}
+# Disease Epidemiology and Biodiversity Conservation in a Changing World
+
+::: {.hero-tags}
+**Community Ecology** • **Disease Epidemiology**  
+**Quantitative Methods** • **Biological Conservation**
+:::
+:::
 
 <!-- Title + profile -->
 ::: {.columns}
