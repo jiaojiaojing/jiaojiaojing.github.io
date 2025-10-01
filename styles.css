@@ -20,9 +20,9 @@
   right: 0;
   bottom: 0;
   background: 
-    url('images/economy-and-harvest.png') 85% 15% / 30% auto no-repeat,
-    url('images/human-health.png') 85% 85% / 30% auto no-repeat;
-  opacity: 0.1; /* Very subtle - just as background texture */
+    url('images/economy-and-harvest.png') 75% 0% / 60% auto no-repeat,
+    url('images/human-health.png') 75% 100% / 60% auto no-repeat;
+  opacity: 0.15; /* Very subtle - just as background texture */
   z-index: 1;
   pointer-events: none;
   filter: brightness(1.2); /* Lighten the images slightly */
