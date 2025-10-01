@@ -1,43 +1,44 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "files/**"
 
 website:
   title: "Jing Lab"
-  favicon: images/favicon.png  # optional – replace with your own if desired
+  favicon: images/favicon.png  # optional
 
   navbar:
-  left:
-    - text: Home
-      href: index.qmd
-    - text: People
-      href: people.qmd
-    - text: Research
-      menu:
-        - text: Overview
-          href: research/index.qmd
-        - text: Topics
-          href: research/topics.qmd
-        - text: Software
-          href: research/software.qmd
-    - text: Teaching
-      href: teaching.qmd
-    - text: News
-      href: news.qmd
-    - text: Join us
-      href: join-us.qmd
-    - text: Values
-      href: values.qmd
-  right:
-    - text: CV
-      href: files/CV.pdf
-    - icon: github
-      href: https://github.com/jiaojiaojing
+    left:
+      - text: Home
+        href: index.qmd
+      - text: People
+        href: people.qmd
+      - text: Research
+        menu:
+          - text: Overview
+            href: research/index.qmd
+          - text: Topics
+            href: research/topics.qmd
+          - text: Software
+            href: research/software.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: News
+        href: news.qmd
+      - text: Join us
+        href: join-us.qmd
+      - text: Values
+        href: values.qmd
+    right:
+      - text: CV
+        href: files/CV.pdf
+      - icon: github
+        href: https://github.com/jiaojiaojing
 
   page-footer:
     left: "© Jing Lab"
     right: "Last change: {{< modified '%Y/%m/%d' >}}"
-
   search: true
 
 format:
