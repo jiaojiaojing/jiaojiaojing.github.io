@@ -43,7 +43,8 @@ format:
 ::: {.column width="70%"}
 ### Jing Jiao, Ph.D.
 <span class="small-muted">Assistant Professor, TCU Biology</span>  
-<span class="small-muted">Applying quantitative tools to understand species interactions and disease spread across space and time. </span>
+<br>
+<span class="small-muted">I apply quantitative tools to understand species interactions and disease dynamics across space and time. My research spans biology, mathematics, and statistics, and I am increasingly incorporating insights from psychology, sociology, and public health policy into my work. </span>
 :::
 :::
 
