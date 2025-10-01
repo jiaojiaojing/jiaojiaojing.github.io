@@ -4,32 +4,55 @@ title: "People"
 
 ## Principal Investigator
 
-**Jing Jiao**  
-Assistant Professor, Department of Biology, TCU  
-[https://jiaojiaojing.github.io](https://jiaojiaojing.github.io)
+<div class="people-grid">
+<div class="p">
+  <h3>Jing Jiao</h3>
+  <p>Assistant Professor<br/>TCU Biology</p>
+</div>
+</div>
 
 ---
 
 ## Students
 
-### Brenda Wu  
-**Master's student** – TCU Biology
+<div class="people-grid">
 
-### Redon Limani  
-**Undergraduate student** – TCU Biology
+<div class="p">
+  <h3>Brenda Wu</h3>
+  <p>Master's student<br/>TCU Biology</p>
+</div>
 
-### Kenny Lai  
-**Undergraduate student** – TCU Biology
+<div class="p">
+  <h3>Redon Limani</h3>
+  <p>Undergraduate student<br/>TCU Biology</p>
+</div>
 
-### Tessa Payne  
-**Undergraduate student** – TCU Computer Science
+<div class="p">
+  <h3>Kenny Lai</h3>
+  <p>Undergraduate student<br/>TCU Biology</p>
+</div>
+
+<div class="p">
+  <h3>Tessa Payne</h3>
+  <p>Undergraduate student<br/>TCU Computer Science</p>
+</div>
+
+</div>
 
 ---
 
 ## PhD Committees
 
-### Zhan Shi  
-**PhD student** – TCU College of Education
+<div class="people-grid">
 
-### Kira Gangbin  
-**PhD student** – TCU Biology
+<div class="p">
+  <h3>Zhan Shi</h3>
+  <p>PhD student<br/>TCU College of Education</p>
+</div>
+
+<div class="p">
+  <h3>Kira Gangbin</h3>
+  <p>PhD student<br/>TCU Biology</p>
+</div>
+
+</div>
