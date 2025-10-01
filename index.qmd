@@ -10,7 +10,7 @@ format:
 <!-- Hero banner -->
 <div class="hero">
   <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
-  <p class="small-muted">Community ecology • Disease dynamics • Quantitative methods</p>
+  <p class="hero-tags">Community Ecology • Disease Epidemiology • Quantitative Methods • Biological Conservation</p>
 </div>
 
 <!-- Title + profile -->
