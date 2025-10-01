@@ -6,7 +6,7 @@ title: "People"
 
 **Jing Jiao**  
 Assistant Professor, Department of Biology, TCU  
-[jiaojiaojing.github.io](https://jiaojiaojing.github.io)
+[https://jiaojiaojing.github.io](https://jiaojiaojing.github.io)
 
 ---
 
@@ -23,3 +23,13 @@ Assistant Professor, Department of Biology, TCU
 
 ### Tessa Payne  
 **Undergraduate student** – TCU Computer Science
+
+---
+
+## PhD Committees
+
+### Zhan Shi  
+**PhD student** – TCU College of Education
+
+### Kira Gangbin  
+**PhD student** – TCU Biology
