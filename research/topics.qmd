@@ -7,7 +7,7 @@ title: "Research Topics"
 - **Coinfection and Environmental Change**  
   Investigating how coinfection combined with environmental variation jointly influence multiple pathogens/ or parasites interactions.
 
-![](images/coinfection.png)
+![](../images/coinfection.png)
 
 *Local shrink/expand around the promising bin. Point fill = exact p-value; size = total n per bin*
 
@@ -17,4 +17,4 @@ title: "Research Topics"
   Understanding how invasive species alter community structure, competition, and disease dynamics.
 
 - **Disease Ecology and Public Health**  
-  Modeling host-pathogen systems and assessing risk factors for disease emergence and spread.
+  Modeling host–pathogen systems and assessing risk factors for disease emergence and spread.
