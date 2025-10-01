@@ -1,9 +1,9 @@
-/* === HERO BANNER WITH PROPER BACKGROUND === */
+/* === HERO BANNER WITH LARGER BACKGROUND === */
 .hero {
   background: 
-    linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(55, 48, 163, 0.9) 100%);
+    linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(55, 48, 163, 0.85) 100%);
   border-radius: 16px;
-  padding: 100px 24px;
+  padding: 80px 24px;
   color: #ffffff;
   text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -20,23 +20,22 @@
   right: 0;
   bottom: 0;
   background: 
-    url('images/economy-and-harvest.png') 75% 0% / 60% auto no-repeat,
-    url('images/human-health.png') 75% 100% / 60% auto no-repeat;
-  opacity: 0.15; /* Very subtle - just as background texture */
+    url('images/economy-and-harvest.png') 80% 5% / 50% auto no-repeat,
+    url('images/human-health.png') 80% 95% / 50% auto no-repeat;
+  opacity: 0.2;
   z-index: 1;
   pointer-events: none;
-  filter: brightness(1.2); /* Lighten the images slightly */
 }
 
 .hero-content {
   position: relative;
-  z-index: 2; /* Above the background */
-  text-align: center; /* Keep text centered */
+  z-index: 2;
+  text-align: center;
 }
 
 .hero h1 {
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 700;
   color: #f8fafc;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
@@ -44,12 +43,59 @@
 }
 
 .hero-tags {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: #e2e8f0;
   font-weight: 500;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  line-height: 1.8;
-  letter-spacing: 0.5px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .hero-tags {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  .hero::before {
+    background: 
+      url('images/economy-and-harvest.png') 85% 10% / 40% auto no-repeat,
+      url('images/human-health.png') 85% 90% / 40% auto no-repeat;
+    opacity: 0.15;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 50px 16px;
+  }
+  
+  .hero h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-tags {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+  
+  .hero::before {
+    background: 
+      url('images/economy-and-harvest.png') 90% 15% / 35% auto no-repeat,
+      url('images/human-health.png') 90% 85% / 35% auto no-repeat;
+    opacity: 0.1;
+  }
 }
 
 /* Math equation background - extremely subtle */
