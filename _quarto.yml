@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Jing Lab"
+  favicon: images/favicon.png  # optional – replace with your own if desired
+
   navbar:
     left:
       - text: Home
@@ -12,40 +14,44 @@ website:
         href: people.qmd
       - text: Research
         menu:
-          - href: research/index.qmd
-          - text: Long-Term Change
-            href: research/long-term.qmd
-          - text: Plant Phenology
-            href: research/phenology.qmd
-          - text: Species Invasions
-            href: research/invasions.qmd
-      - text: Publications
-        href: publications.qmd
+          - text: Overview
+            href: research/index.qmd
+          - text: Topics
+            href: research/topics.qmd
+          - text: Publications
+            href: publications.qmd
+          - text: Software
+            href: software.qmd
       - text: Teaching
         href: teaching.qmd
+      - text: News
+        href: news.qmd
       - text: Join us
         href: join-us.qmd
       - text: Values
         href: values.qmd
-      - text: Blog
-        href: blog/index.qmd
     right:
-      - icon: github
-        href: https://github.com/jiaojiaojing
       - text: CV
         href: files/CV.pdf
+      - icon: github
+        href: https://github.com/jiaojiaojing
+
   page-footer:
-    left: |
-      © the Jing Lab 2020–{{< meta year >}}
-    right: |
-      Last change: {{< meta today >}}
+    left: "© Jing Lab"
+    right: "Last change: {{< modified '%Y/%m/%d' >}}"
+
+  search: true
+
 format:
   html:
     theme:
-      - flatly
-      - custom.scss
+      light: flatly
+      dark: darkly
     toc: false
-    smooth-scroll: true
     anchor-sections: true
-execute:
-  freeze: auto
+    smooth-scroll: true
+    page-layout: article
+    code-copy: true
+    link-external-newwindow: true
+
+page-navigation: true
