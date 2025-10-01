@@ -1,6 +1,7 @@
-
 /* Simple clean tweaks */
 .navbar-brand, .navbar-nav .nav-link { font-weight: 600; }
+
+/* HERO banner (uses assets/banner.jpg) */
 .hero {
   background: url('assets/banner.jpg') center/cover no-repeat;
   border-radius: 16px;
@@ -8,17 +9,50 @@
   color: #eef3ff;
   text-align: center;
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .hero h1 { font-size: 2.2rem; margin-bottom: .5rem; }
-.hero p { font-size: 1.1rem; opacity: .95; }
+.hero p { font-size: 1.05rem; opacity: .95; }
+
+/* Title + profile row */
+.lab-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+.lab-photo {
+  width: 140px; height: 140px;
+  border-radius: 50%; object-fit: cover;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+.mb-1 { margin-bottom: .25rem; }
+.small-muted { color:#6b7280; }
+
+/* Research area cards */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto 1.5rem;
+  padding: 0 1rem;
 }
 .card {
   border-radius: 14px; padding: 16px; border: 1px solid #e6e8ef;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+  background: #fff;
 }
-.badge-soft { background: #eef2ff; color: #334155; padding: 4px 10px; border-radius: 999px; font-size: .85rem;}
-.small-muted { color:#6b7280; font-size: .95rem; }
+.badge-soft {
+  background: #eef2ff; color: #334155;
+  padding: 4px 10px; border-radius: 999px;
+  font-size: .85rem; display: inline-block; margin-bottom: .5rem;
+}
+
+/* Make images nice on dark theme too */
+:root[data-bs-theme="dark"] .card { background:#0f1116; border-color:#1f2430; }
+:root[data-bs-theme="dark"] .badge-soft { background:#1f2430; color:#e5e7eb; }
