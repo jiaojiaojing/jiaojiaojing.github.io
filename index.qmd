@@ -7,26 +7,16 @@ format:
     toc: false
 ---
 
-<!-- Hero banner -->
-::: {.hero}
-::: {.hero-content}
-# Disease Epidemiology and Biodiversity Conservation in a Changing World
-
-::: {.hero-tags}
-**Community Ecology** • **Disease Epidemiology**  
-**Quantitative Methods** • **Biological Conservation**
-:::
-:::
-
-::: {.hero-background}
-[[∂S/∂t = μ - βSI - μS]]{.math-bg}  
-[[dN/dt = rN(1-N/K)]]{.math-bg}  
-[[R₀ = β/γ]]{.math-bg}  
-[[H' = -Σ(pᵢ ln pᵢ)]]{.math-bg}  
-[[ẋ = σ(y-x)]]{.math-bg}  
-[[P(X=k) = λᵏe⁻λ/k!]]{.math-bg}
-:::
-:::
+<!-- Hero banner with research plot background -->
+<div class="hero">
+  <div class="hero-content">
+    <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
+    <div class="hero-tags">
+      <span>Community Ecology</span> • <span>Disease Epidemiology</span><br>
+      <span>Quantitative Methods</span> • <span>Biological Conservation</span>
+    </div>
+  </div>
+</div>
 
 <!-- Title + profile -->
 ::: {.columns}
