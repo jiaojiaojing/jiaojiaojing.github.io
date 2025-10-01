@@ -1,0 +1,12 @@
+---
+title: "Software & Tools"
+---
+
+We use a variety of computational tools to support ecological modeling, statistical analysis, and data visualization:
+
+- 🧮 **R language** – statistics, modeling, visualization
+- 📐 **Maple** – symbolic computation, theoretical modeling
+- 🧠 **MATLAB** – numerical simulations and custom models
+- 🐍 **Python** – data science, modeling, machine learning
+
+We are actively exploring **AI tools** for large-scale ecological and health data applications — more details coming soon.
