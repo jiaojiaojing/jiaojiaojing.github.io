@@ -41,7 +41,9 @@ title: "Lab Values"
 We strive to cultivate more than just scientific excellence; we aim to develop future global citizens who are curious, collaborative, and kind. Our lab culture is built on a foundation of diversity, acceptance, and mutual respect. We seek team members who are open-minded, value different perspectives, and are committed to upholding our collective agreements and lab guidelines.
 
 ### Weekly Activities
+
 *(Schedule may change semester by semester)*
+
 - **Lab Meetings**: Friday 12 PM - Project updates and problem-solving
 - **Individual Meetings**: Thursday 12 PM - Literature discussion and manuscript drafting
 - **Coding Sessions**: Wednesdays 3 PM - Collaborative programming and troubleshooting
