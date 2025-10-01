@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Jiao Lab"
-  favicon: images/favicon.png  # optional
+  favicon: images/favicon.png  # remove this line if the file doesn't exist
 
   navbar:
     left:
@@ -37,8 +37,8 @@ website:
         href: https://github.com/jiaojiaojing
 
   page-footer:
-  left: "© Jiao Lab"
-  right: "Last updated: 2025/09/30"
+    left: "© Jiao Lab"
+    right: "Last updated: 2025/09/30"
 
   search: true
 
@@ -47,7 +47,7 @@ format:
     theme:
       light: flatly
       dark: darkly
-    css: styles.css         # ✅ Add this line!
+    css: styles.css
     toc: false
     anchor-sections: true
     smooth-scroll: true
