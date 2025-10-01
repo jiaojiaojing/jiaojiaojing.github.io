@@ -5,7 +5,7 @@ project:
     - "files/**"
 
 website:
-  title: "Jing Lab"
+  title: "Jiao Lab"
   favicon: images/favicon.png  # optional
 
   navbar:
@@ -37,7 +37,7 @@ website:
         href: https://github.com/jiaojiaojing
 
   page-footer:
-  left: "© Jing Lab"
+  left: "© Jiao Lab"
   right: "Last updated: 2025/09/30"
 
   search: true
@@ -47,6 +47,7 @@ format:
     theme:
       light: flatly
       dark: darkly
+    css: styles.css         # ✅ Add this line!
     toc: false
     anchor-sections: true
     smooth-scroll: true
