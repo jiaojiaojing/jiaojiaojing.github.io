@@ -56,3 +56,10 @@
 /* Make images nice on dark theme too */
 :root[data-bs-theme="dark"] .card { background:#0f1116; border-color:#1f2430; }
 :root[data-bs-theme="dark"] .badge-soft { background:#1f2430; color:#e5e7eb; }
+
+/* hide Quarto's default title block on the home page only */
+.home .quarto-title { display: none; }
+
+/* small spacing so the profile doesn't crowd the hero */
+.hero { margin-bottom: 1.5rem; }
+
