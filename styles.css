@@ -40,9 +40,9 @@
 
 /* === HERO BANNER FIX === */
 .hero {
-  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%); /* Fallback if image missing */
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
   border-radius: 16px;
-  padding: 60px 24px;
+  padding: 100px 24px;
   color: #ffffff;
   text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -51,30 +51,23 @@
   overflow: hidden;
 }
 
-/* If you have a banner image, use this instead: */
-/* .hero {
-  background: url('assets/banner.jpg') center/cover no-repeat;
-  border-radius: 16px;
-  padding: 60px 24px;
-  color: #ffffff;
-  text-align: center;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  margin: 1.5rem 0;
-  position: relative;
-} */
-
 .hero h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  position: relative;
-  z-index: 2;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  line-height: 1.2;
 }
 
 .hero p {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  position: relative;
-  z-index: 2;
+  font-size: 1.6rem;
+  opacity: 0.95;
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
 /* === PROFILE PHOTO === */
