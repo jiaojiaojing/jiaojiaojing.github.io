@@ -1,6 +1,7 @@
 ---
-title: "Jiao Lab"
+title: ""                  # hide the built‑in page H1 on this page
 page-layout: full
+page-classes: home         # add a class so we can target home-only CSS
 format:
   html:
     toc: false
