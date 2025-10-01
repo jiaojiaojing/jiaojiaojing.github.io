@@ -7,34 +7,32 @@ website:
   favicon: images/favicon.png  # optional – replace with your own if desired
 
   navbar:
-    left:
-      - text: Home
-        href: index.qmd
-      - text: People
-        href: people.qmd
-      - text: Research
-        menu:
-          - text: Overview
-            href: research/index.qmd
-          - text: Topics
-            href: research/topics.qmd
-          - text: Publications
-            href: publications.qmd
-          - text: Software
-            href: software.qmd
-      - text: Teaching
-        href: teaching.qmd
-      - text: News
-        href: news.qmd
-      - text: Join us
-        href: join-us.qmd
-      - text: Values
-        href: values.qmd
-    right:
-      - text: CV
-        href: files/CV.pdf
-      - icon: github
-        href: https://github.com/jiaojiaojing
+  left:
+    - text: Home
+      href: index.qmd
+    - text: People
+      href: people.qmd
+    - text: Research
+      menu:
+        - text: Overview
+          href: research/index.qmd
+        - text: Topics
+          href: research/topics.qmd
+        - text: Software
+          href: research/software.qmd
+    - text: Teaching
+      href: teaching.qmd
+    - text: News
+      href: news.qmd
+    - text: Join us
+      href: join-us.qmd
+    - text: Values
+      href: values.qmd
+  right:
+    - text: CV
+      href: files/CV.pdf
+    - icon: github
+      href: https://github.com/jiaojiaojing
 
   page-footer:
     left: "© Jing Lab"
