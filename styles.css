@@ -57,3 +57,84 @@
 .math-bg:nth-child(4) { bottom: 20%; right: 8%; }
 .math-bg:nth-child(5) { top: 45%; left: 15%; }
 .math-bg:nth-child(6) { bottom: 45%; right: 15%; }
+
+/* === RESEARCH AREA CARDS - IMPROVED === */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 3rem 0;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 28px 24px;
+  border: none;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+.badge-soft {
+  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+  color: #3730a3;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+  font-weight: 700;
+}
+
+.card p {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+/* Dark mode support */
+:root[data-bs-theme="dark"] .card {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+:root[data-bs-theme="dark"] .card h3 {
+  color: #f1f5f9;
+}
+
+:root[data-bs-theme="dark"] .card p {
+  color: #94a3b8;
+}
+
+:root[data-bs-theme="dark"] .badge-soft {
+  background: linear-gradient(135deg, #3730a3 0%, #5b21b6 100%);
+  color: #e0e7ff;
+  border: 1px solid rgba(165, 180, 252, 0.1);
+}
+
