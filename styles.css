@@ -1,6 +1,8 @@
 /* === HERO BANNER === */
+/* Alternative: More controlled plot positioning */
 .hero {
-  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+  background: 
+    linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(55, 48, 163, 0.85) 100%);
   border-radius: 16px;
   padding: 100px 24px;
   color: #ffffff;
@@ -11,32 +13,18 @@
   overflow: hidden;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 3;
-}
-
-.hero h1 {
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
-  font-weight: 700;
-  color: #f8fafc; /* Light gray instead of bright white */
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  line-height: 1.2;
-}
-
-.hero-tags {
-  font-size: 2.2rem; /* Even larger */
-  color: #e2e8f0; /* Light gray - less bright */
-  font-weight: 500;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  line-height: 1.8;
-  letter-spacing: 0.5px;
-}
-
-.hero-tags span {
-  display: inline-block;
-  margin: 0 0.5rem;
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    url('images/economy-and-harvest.png') top left/45% auto no-repeat,
+    url('images/human-health.png') bottom right/45% auto no-repeat;
+  opacity: 0.15;
+  z-index: 1;
 }
 
 /* Math equation background - extremely subtle */
