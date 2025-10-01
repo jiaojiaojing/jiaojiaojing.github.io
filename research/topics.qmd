@@ -7,7 +7,7 @@ title: "Research Topics"
 - **Coinfection and Environmental Change**  
   Investigating how coinfection combined with environmental variation jointly influence multiple pathogens/ or parasites interactions.
 
-![R permutation test to detect non-linearity of coinfection with the refinement of bin width and position of dataset grouping](images/coinfection.png){fig-alt="Local shrink/expand around the promising bin. Point fill = exact p-value; size = total n per bin"}
+![](images/coinfection.png){fig-alt="Local shrink/expand around the promising bin. Point fill = exact p-value; size = total n per bin"}
 
 *R permutation test to detect non-linearity of coinfection with refinement of bin width and dataset grouping positions. The visualization shows local expansion around promising bins where point fill represents exact p-values and point size indicates total n per bin.*
 
