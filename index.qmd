@@ -9,8 +9,21 @@ format:
 
 <!-- Hero banner -->
 <div class="hero">
-  <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
-  <p class="hero-tags">Community Ecology • Disease Epidemiology • Quantitative Methods • Biological Conservation</p>
+  <div class="hero-content">
+    <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
+    <div class="hero-tags">
+      <span>Community Ecology</span> • <span>Disease Epidemiology</span><br>
+      <span>Quantitative Methods</span> • <span>Biological Conservation</span>
+    </div>
+  </div>
+  <div class="hero-background">
+    <div class="math-bg">∂S/∂t = μ - βSI - μS</div>
+    <div class="math-bg">dN/dt = rN(1-N/K)</div>
+    <div class="math-bg">R₀ = β/γ</div>
+    <div class="math-bg">H' = -Σ(pᵢ ln pᵢ)</div>
+    <div class="math-bg">ẋ = σ(y-x)</div>
+    <div class="math-bg">P(X=k) = λᵏe⁻λ/k!</div>
+  </div>
 </div>
 
 <!-- Title + profile -->
