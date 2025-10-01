@@ -7,7 +7,7 @@ format:
 ---
 
 <div class="hero">
-  <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
+  <h1>Exploring Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
 </div>
 
 <div class="key-areas">
