@@ -1,20 +1,19 @@
 ---
-title: "Jing Lab"
+title: "Jiao Lab"
 page-layout: full
 format:
   html:
     toc: false
 ---
 
-<div class="hero">
-  <h1>Exploring Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
-</div>
-
-<div class="key-areas">
-  <div class="area">🧬 Computational Biology</div>
-  <div class="area">🌿 Community Ecology</div>
-  <div class="area">🧫 Host–Pathogen Interactions</div>
-  <div class="area">📊 Mathematical & Statistical Analyses</div>
+<div class="lab-header">
+  <img src="images/jing.jpg" class="lab-photo" alt="Jing Jiao">
+  <div>
+    <h1>Disease Epidemiology and Biodiversity Conservation in a Changing World</h1>
+    <p class="subfields">
+      🧬 Computational Biology • 🌿 Community Ecology • 🧫 Host–Pathogen Interactions • 📊 Statistical Analyses
+    </p>
+  </div>
 </div>
 
 ---
